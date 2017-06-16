@@ -1,0 +1,103 @@
+/** {
+  border-style: solid;
+  color: black ;
+}*/
+
+header {
+  display: block;
+}
+
+header ul li {
+  display: inline;
+}
+
+.logo-copy {
+  display: block;
+  width: 20px;
+  position: relative;
+  top: -500px;
+}
+
+h2 {
+  position: absolute;
+  top: -20px;
+  left: 55px;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 2px;
+}
+
+#right-nav {
+  position: absolute;
+  top: 15px;
+  right: 55px;
+}
+
+#tagline {
+  position: absolute;
+  top: 30px;
+  left: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+#pint {
+  margin-right: 8px;
+}
+
+.blog-name {
+  display: block;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    background: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+}
+
+footer ul li {
+  position: absolute;
+  display: inline;
+}
+
+#footer-elements {
+  position: absolute;
+  bottom: 300px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#footer-decor {
+  display: inline;
+}
+
+#footer-logo {
+  width: 34px;
+}
+
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 592px; /* half of limiter */
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
