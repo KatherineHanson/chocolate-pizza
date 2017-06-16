@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Chcolate Pizza</title>
+    <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Pacifico" rel="stylesheet">
   </head>
   <body>
     <header>
       <div id="inner">
         <nav>
-          <div id="left-nav">
-            <img src="lab-assets/logo.png">
-            <div id="logo-copy">
-              <h3 id="blog-name">Delicious</h3>
-              <p id="tagline">THE BEST FOOD BLOG ON THE WEB</p>
-            </div>
+          <div class="left-nav">
+            <img id="logo-img" src="lab-assets/logo.png">
+            <ul id="logo-copy">
+              <li><h2 id="blog-name">Delicious</h2></li>
+              <li><p id="tagline">THE BEST FOOD BLOG ON THE WEB.</p></li>
+            </ul>
           </div>
           <div id="right-nav">
             <ul>
@@ -23,14 +24,26 @@
               <li><img src="lab-assets/gp-icon.png"></li>
               <li><img src="lab-assets/insta-icon.png"></li>
               <li><img src="lab-assets/flic-icon.png"></li>
-              <li><img src="lab-assets/pint-icon.png"></li>
-              <li id = "rss"><img src="lab-assets/rss-icon.png"></li>
+              <li id="pint"><img src="lab-assets/pint-icon.png"></li>
+              <li><img src="lab-assets/rss-icon.png"></li>
               <li><img src="lab-assets/mail-icon.png"></li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
-
+    <footer>
+      <div id="footer-elements">
+        <!-- <ul> -->
+          <!-- <li><hr id="left-footer-line"></li> -->
+          <div class="decorated">
+            <span><img id="footer-logo" src="lab-assets/logo.png"></span>
+          </div>
+          <!-- <li><hr id="right-footer-line"></li> -->
+        <!-- </ul> -->
+        <p>Delicious &copy; 2013 &#8226 All Rights Reserved.</p>
+        <p>Proudly published with Ghost.</p>
+      </div>
+    </footer>
   </body>
 </html>
