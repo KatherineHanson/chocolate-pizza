@@ -98,6 +98,15 @@ main {
   border-top-style: ;
 }
 
+.para-text {
+  position: absolute;
+  left: 253px;
+  right: 260px;
+  top: 600px;
+  width: 65% auto;
+  margin-top: 200px;
+}
+
 footer ul li {
   position: absolute;
   display: inline;
